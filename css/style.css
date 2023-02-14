@@ -3,7 +3,8 @@
 }
 .expense-box {
     margin-top: 10px;
-    background-color: green;
+    background-color: #71A311;
+    color: black;
     justify-content: space-around;
 }
 a {
@@ -12,4 +13,24 @@ a {
 #deleteBox {
     background-color: transparent;
     border-color: transparent;
+}
+.main-bg {
+    /* background-color: #0D3943; */
+    background: linear-gradient(0deg, #ea99da 0%, hsla(234, 93%, 67%, 1) 100%);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+html {
+    background-color: #ea99da;
+}
+#addExpense, #updateBudget {
+    background-color: #D27E19;
+}
+input {
+    background-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+::placeholder {
+    color: white;
 }
