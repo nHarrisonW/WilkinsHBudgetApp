@@ -19,8 +19,8 @@
         </div>
         <!-- new expense inputs -->
         <div class="header">
-            <input class="val-box col-12" placeholder="Description" type="text" value="">
-            <input class=" val-box col-12" placeholder="Value" type="number" value="">
+            <input id="newDescription" class="val-box col-12" placeholder="Description" type="text" value="">
+            <input id="newValue" class=" val-box col-12" placeholder="Value" type="number" value="">
         </div>
         <!-- new expense button -->
         <div class="d-grid">
@@ -28,7 +28,7 @@
           </div>
           <!-- box for new expense -->
           <div class="d-flex expense-box col-12">
-            <a id="deleteBox" onclick="" href="">❌</a>
+            <button type="reset" id="deleteBox" href="">❌</button>
             <p id="expenseCost">$$$</p>
             <p id="expenseDescription">Description</p>
           </div>
