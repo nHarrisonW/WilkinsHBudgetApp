@@ -1,0 +1,11 @@
+.val-box {
+    margin-bottom: 10px;
+}
+.expense-box {
+    margin-top: 10px;
+    background-color: green;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none !important;
+}
